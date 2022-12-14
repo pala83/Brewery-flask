@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Brewery{% endblock %}
+
+{% block content %}
+
+    {% from "components/header.html" import nav_list %}
+    {{ nav_list(activados) }}
+    <h1>Compras</h1>
+    {% include 'components/footer.html' %}
+
+{% endblock %}
