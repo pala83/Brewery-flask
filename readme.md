@@ -7,6 +7,14 @@
     - [Configuracion de la Base de Datos](#configuracion-de-la-base-de-datos)
     - [Configuracion de TailWind](#configuracion-de-tailwind)
     - [Fin de la configuracion](#fin-de-la-configuracion)
+- [Diseño UI](#diseño-ui)
+    - [Home](#home)
+    - [Catalogo](#catalogo)
+    - [Compras](#compras)
+    - [Seccion ADMIN](#seccion-admin)
+    - [Login](#login)
+    - [Registro](#registro)
+
 
 # Ejecutar de manera local - orientado a linux
 Al ser un micro framework, Flask es tan liviano y simple que hacerlo andar de manera local se logra ejecutando unos pocos comandos de consola
@@ -65,3 +73,33 @@ Ya esta todo el proyecto configurado, ahora solo debe ejecutar el siguiente coma
 source venv/bin/activate
 python3 src/app.py
 ~~~
+
+# Diseño UI
+La UI fue diseñada con TailwindCSS, tiene tema claro, tema oscuro y es totalmente responsive con enfoque mobile first, todo esto lo facilita Tailwind de forma nativa.
+
+## Home
+| Breackpoint | Dark                                           | Light                                                      |
+|-------------|------------------------------------------------|------------------------------------------------------------|
+| LG: 1024    | ![Breackpoint 1024](assets-readme/Home-lg.png) | ![Breackpoint 1024 light](assets-readme/Home-lg-light.png) |
+| MD: 768     | ![Breackpoint 768](assets-readme/Home-md.png)  | ![Breackpoint 768 light](assets-readme/Home-md-light.png)  |
+| SM: 480     | ![Breackpoint 480](assets-readme/Home-sm.png)  | ![Breackpoint 480 light](assets-readme/Home-sm-light.png)  |
+
+## Catalogo
+
+## Compras
+
+## Seccion ADMIN
+
+## Login
+| Breackpoint | Dark                                           | Light                                                        |
+|-------------|-------------------------------------------------|-------------------------------------------------------------|
+| LG: 1024    | ![Breackpoint 1024](assets-readme/Login-lg.png) | ![Breackpoint 1024 light](assets-readme/Login-lg-light.png) |
+| MD: 768     | ![Breackpoint 768](assets-readme/Login-md.png)  | ![Breackpoint 768 light](assets-readme/Login-md-light.png)  |
+| SM: 480     | ![Breackpoint 480](assets-readme/Login-sm.png)  | ![Breackpoint 480 light](assets-readme/Login-sm-light.png)  |
+
+## Registro
+| Breackpoint | Dark                                               | Light                                                          |
+|-------------|----------------------------------------------------|----------------------------------------------------------------|
+| LG: 1024    | ![Breackpoint 1024](assets-readme/Registro-lg.png) | ![Breackpoint 1024 light](assets-readme/Registro-lg-light.png) |
+| MD: 768     | ![Breackpoint 768](assets-readme/Registro-md.png)  | ![Breackpoint 768 light](assets-readme/Registro-md-light.png)  |
+| SM: 480     | ![Breackpoint 480](assets-readme/Registro-sm.png)  | ![Breackpoint 480 light](assets-readme/Registro-sm-light.png)  |
